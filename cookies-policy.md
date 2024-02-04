@@ -1,9 +1,10 @@
 ---
 layout: plain
 sitemap: false
+permalink:/cookies-policy/
 ---
 
-# COOKIE POLICY
+# COOKIES POLICY
 Last updated February 04, 2024
 
 This Cookie Policy explains how __________ ("Company," "we," "us," and "our") uses cookies and similar technologies to recognize you when you visit our website at  https://mullet-moose.github.io ("Website"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
