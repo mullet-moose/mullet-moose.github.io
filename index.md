@@ -1,18 +1,12 @@
 ---
 layout: welcome
-title: Moose-Tracks
+title: Howdy!
 cover: true
 ---
 
-Well Howdy!  I'm Mullet-Moose :)
-
-Moose-Tracks is my personal website and blog.  Join me as I explore technology, cybersecurity, video games, and more!
-
-## Want to know a little more about me?
-Head on over to my <a href="/about/">About Me</a> page to get a glimpse of the man behind the moose.
-
-## Just here for business?  
-Well my <a href="/resume/">Resume</a> is here for your perusal ;)
+<center>I'm Mullet-Moose :)</center> 
+<br>
+Moose-Tracks is my personal website and blog.  Join me as I explore cybersecurity, technology, video games, and more!  If you'd like to learn a little more about the man behind the moose, visit my <a href="/about/">About Me</a> page.  
 
 ## Moose-Tracks Blog
 

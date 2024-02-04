@@ -34,11 +34,21 @@ As always we start off with an nmap scan.
 
 Our scan reveals 3 open ports: 21(FTP), 22(SSH), and 80(HTTP).
 
+
+How many open ports?
+
+	3
+
 ### How you redirect yourself to a secret page?
 
 Navigating to the IP address yields us a note from Agent R.  We are to use our own "codename" as user-agent to access the site.
 
 <img src="/assets/img/blog/agentsudo/site.png">
+
+
+How you redirect yourself to a secret page?
+
+	user-agent
 
 ### What is the agent name?
 
@@ -52,6 +62,10 @@ There's a user-agent in captured request!  This is where I had to put my thinkin
 
 <img src="/assets/img/blog/agentsudo/agentc.png">
 
+What is the agent name?
+
+	chris
+
 ## Task 3 - Hash cracking and brute-force
 
 Now that we know "agent C" is Chris we can try and brute force FTP using hydra.
@@ -61,6 +75,10 @@ Now that we know "agent C" is Chris we can try and brute force FTP using hydra.
 Hydra gives us our FTP password for Chris!
 
 <img src="/assets/img/blog/agentsudo/hydra.png">
+
+FTP password
+
+	crystal
 
 ### Zip file password
 
@@ -86,9 +104,17 @@ So, now we have a zip file, but trying to unzip it requires a password.  I used 
 
 <img src="/assets/img/blog/agentsudo/zip.png">
 
+Zip file password
+
+	alien
+
 ### steg password
 
 Binwalk was unable to extract anything from cute-alien.jpg, so I decided to try stegcracker instead.  
+
+steg password
+
+	Area51
 
 <img src="/assets/img/blog/agentsudo/zip.png">
 
@@ -98,9 +124,17 @@ Stegcracker was able to successfully extract a note from the image.  The note re
 
 <img src="/assets/img/blog/agentsudo/note.png">
 
+Who is the other agent (in full name)?
+
+	james
+
 ### SSH password
 
 Refer to the screenshot above.
+
+SSH password
+
+	hackerrules!
 
 ## Capture the user flag
 
@@ -112,6 +146,10 @@ Using our harvested credentials we can login as james using ssh.  Using cat on t
 
 Refer to the screenshot above.
 
+What is the user flag?
+
+	b03d975e8c92a7c04146cfa7a5a313c7
+
 ### What is the incident of the photo called?
 
 Using scp I downloaded the photo in james' directory.
@@ -119,6 +157,11 @@ Using scp I downloaded the photo in james' directory.
 <img src="/assets/img/blog/agentsudo/auto.png">
 
 Now using TinEye to do a reverse image search we can answer this question!
+
+
+What is the incident of the photo called?
+
+	Roswell alien autopsy
 
 ## Privilege escalation
 
@@ -130,6 +173,11 @@ A quick search on Exploit-DB gives us our CVE!
 
 <img src="/assets/img/blog/agentsudo/db.png">
 
+
+CVE number for the escalation
+
+	CVE-2019-14287
+
 ### What is the root flag?
 
 Next we'll run sudo -l to see what privilages james has.
@@ -140,9 +188,18 @@ Cross referencing this information with our CVE reveals that running "sudo -u#-1
 
 <img src="/assets/img/blog/agentsudo/lastflag.png"> 
 
+What is the root flag?
+
+	b53a02f55b57d4439e3341834d70c062
+
 ### (Bonus) Who is Agent R?
 
 This is revealed in the root.txt flag.
+
+
+(Bonus) Who is Agent R?
+
+	DesKel
 
 
 

@@ -37,9 +37,18 @@ I downloaded these to my attacking machine using wget and inspected the files.  
 
 <img src="/assets/img/blog/bounty/task.png">
 
+Who wrote the task list? 
+
+	lin
+	
 ## What service can you bruteforce with the text file found?
 
-Using hyrda we should be able to brute force our way onto ssh using our gathered credentials.
+Using hyrda we should be able to brute force our way onto SSH using our gathered credentials.
+
+
+What service can you bruteforce with the text file found?
+
+	SSH
 
 ## What is the users password? 
 
@@ -49,11 +58,20 @@ Haza!  Now we can login as lin :D
 
 <img src="/assets/img/blog/bounty/lin.png">
 
+
+What is the users password? 
+
+	RedDr4gonSynd1cat3
+
 ## user.txt
 
 Now that we're logged in as lin you can cat the user.txt file in /Desktop.
 
 <img src="/assets/img/blog/bounty/user.png">
+
+user.txt
+
+	THM{CR1M3_SyNd1C4T3}
 
 ## root.txt
 
@@ -70,6 +88,10 @@ Running the command was a success!
 After some digging around I found the root.txt file.
 
 <img src="/assets/img/blog/bounty/flag.png">
+
+root.txt
+
+	THM{80UN7Y_h4cK3r}
 
 And there we have it!  Another CTF in the books :)
 

@@ -18,6 +18,9 @@ Today I'm jumping into another CTF on THM!  Cyborg is a beginner level box that 
 
 Feel free to follow along: <a href="https://tryhackme.com/room/cyborgt8">Cyborg</a>
 
+* toc
+{:toc}
+
 ## Scan the machine, how many ports are open?
 
 As is tradition, we'll do some enumerating and run an nmap scan to discover any open ports.  The scan reveals that ports 22 and 80 are open for business!
