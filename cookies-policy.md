@@ -1,7 +1,7 @@
 ---
 layout: plain
 sitemap: false
-permalink:/cookies-policy/
+permalink: /cookies-policy/
 ---
 
 # COOKIES POLICY
