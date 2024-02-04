@@ -1,0 +1,75 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# Change `author1` to your shortname.
+author1:
+  name:              AJ Labrum
+  email:             cybersec.aj@gmail.com
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:             |
+    My name's AJ (a.k.a. Mullet-Moose) and I hail from beautiful Denver, CO. Formerly a professional dancer, I'm now focused on my passion for cybersecurity and technology.  When I'm not tinkering in my home lab or playing CTF's, I'm spending some quality time with my best blue heeler companion, Rezz.  I also enjoy video games, cooking, and working on home-improvement projects.
+
+  # This photo will be used in the about section
+  picture:
+    path:            /assets/img/ProfilePhoto.png
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    # srcset:
+      # 1x:            https://placehold.it/128x128
+      # 2x:            https://placehold.it/256x256
+
+  # Social media icons in sidebar
+  # Comment/uncommet to show/hide
+  # Rearrange to change the order in which they appear
+  social:
+    # twitter:         <username>
+    linkedin:          cybersecaj
+    email:             cybersec.aj@gmail.com
+    # rss:             https://<url>/feed.xml
+    # facebook:        <username>
+    # google:          <number>
+    # vk:              <username>
+    # youtube:         <string_string_string>
+    # vimeo:           <username>
+    # vine:            <username>
+    # spotify:         <user>/<number>
+    # soundcloud:      <username>
+    # lastfm:          <username>
+    # instagram:       <username>
+    # flickr:          <string@string>
+    # 500px:           <username>
+    # dribbble:        <username>
+    # behance:         <username>
+    # deviantart:      <username>
+    # ello:            <username>
+    # twitch:          <username>
+    # steam:           <number>
+    reddit:            mullet-moose
+    github:            mullet-moose
+    # tumblr:          <username>
+    # pinterest:       <username>
+    # foursquare:      <number>
+    # yelp:            <string>
+    # stackoverflow:   <number/username>
+    # npm:             <username>
+    # hackernews:      <username>
+    # trello:          <firstnamelastname>
+    
+    # xing:            <firstname_lastname_counter>
+    # blogger:         <number>
+    # delicious:       <username>
+    # stumbleupon:     <username>
+    # paypal:          <username>
+    # download:        <url>
+    # keybase          <username>
+
+# Another author (optional)
+# author2:
+  # name:              <firtname> <lastname>
+  # email:             <mail@domain.tld>
+  # about:             |
+    
+
+  # picture:           https://placehold.it/128x128
+  # twitter:           <username>
+  # github:            <username>

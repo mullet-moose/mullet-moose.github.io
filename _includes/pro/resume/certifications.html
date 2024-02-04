@@ -1,0 +1,36 @@
+{% if resume.certifications.size > 0 %}
+<section>
+  <div class="npb">
+  <h2 id="certifications" class="h3 hr-bottom">
+    {{ strings.resume.certifications | default:"Certifications" }}
+    <span class="symbol {{ icons.certifications | default:'icon-checkmark' }}"></span>
+  </h2>
+  {% for cer in resume.certifications %}
+  <section>
+    <header class="{% unless forloop.first %}mt2{% endunless %}">
+
+      <h3 class="h4 faded" property="award">
+        {% capture institution %}<span class="bc">{{ cer.institution }}</span>{% endcapture %}
+        {% capture name %}<span class="bc">{{ cer.name }}</span>{% endcapture %}
+        {{ strings.resume.certifications_title
+          | default:"<!--institution--> <!--name-->"
+          | replace:"<!--name-->", name
+          | replace:"<!--institution-->", institution
+        }}
+      </h3>
+    </header>
+
+    {% include components/message.html class="note" text=cer.summary alt="" %}
+    {% if cer.credentialID.size > 0 %}
+    <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>
+    <ul>
+      {% for credentialID in cer.credentialID %}
+        <lh>{{ credentialID }}</lh>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+  {% if forloop.first %}</div>{% endif %}
+  {% endfor %}
+</section>
+{% endif %}
