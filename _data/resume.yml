@@ -45,7 +45,7 @@ work:
       - "Generate client quotes and invoices with a high degree of accuracy."
   - company: "Verizon Wireless"
     position: "Solutions Specialist"
-    startDate: "2017-12-01"
+    startDate: "2018-01-01"
     endDate: "2018-12-01"
     highlights:
       - "Recommend innovative solutions for business and retail customers that meet requirements and improve functionality."
@@ -92,7 +92,7 @@ certifications:
     name: "Pentest+"
     credentialID: "Credential ID: KHNT29B6DFEE1WK4"
   - institution: "(ISC)2"
-    name: "Associate of (ISC)2"
+    name: "Systems Security Certified Practitioner (SSCP)"
     credentialID: "Credential ID: 1869993"
   - institution: "AXELOS"
     name: "ITILv4 Foundation"
