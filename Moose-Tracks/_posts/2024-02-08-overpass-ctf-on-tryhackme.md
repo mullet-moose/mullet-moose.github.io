@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overpass CTF Write-Up
-image: /assets/img/blog/bounty/overpass/lock.webp
+image: /assets/img/blog/overpass/lock.webp
 accent_image: 
   background: url('/assets/img/blog/overpass/lock.webp') center/cover
   overlay: false
@@ -13,7 +13,9 @@ invert_sidebar: false
 ---
 # Overpass CTF Write-Up
 
-Intro text...
+Mullet-Moose attempts to hack into a password manager on this room by TryHackMe.
+
+Want to follow along?  <a href="https://tryhackme.com/room/overpass">Overpass</a>
 
 * toc
 {:toc}
