@@ -51,14 +51,7 @@ work:
       - "Recommend innovative solutions for business and retail customers that meet requirements and improve functionality."
       - "Provide tier 1 technical support for mobile devices and network connectivity."
       - "Facilitate sale of mobile devices with an emphasis on up-selling accessories and additional solutions."
-  - company: "Royal Caribbean Cruise Lines"
-    position: "Wi-Fi Help Desk Associate"
-    startDate: "2015-12-01"
-    endDate: "2017-12-01"
-    highlights:
-      - "Assist guests in the purchase and set-up of Wi-Fi packages while on board."
-      - "Troubleshoot Wi-Fi connectivity issues."
-      - "Log transactions and analyze purchasing trends."
+
 
 education:
   - institution: "Western Governors University"
@@ -137,8 +130,8 @@ skills:
       - "Cyber Kill Chain"
       - "Diamond"
       - "MITRE ATT&CK"
-      - "NIST SP-800-37"
-      - "ISO 27001"
+      - "NIST"
+      - "ISO"
   - name: "Legal/Regulatory"
     level: ""
     keywords:
@@ -157,11 +150,8 @@ skills:
       - "Cryptography"
       - "PKI"
       - "Active Directory"
-      - "Database Management"
       - "Project Management"
       - "MFA"
-      - "Cloud Security"
-      - "Digital Forensics"
       - "Packet Capture/Analysis"
       - "Log Analysis"
       - "Penetration Testing"

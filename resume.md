@@ -2,11 +2,11 @@
 layout: resume
 left_column:
   - work
+  - skills
   - references
 
 right_column:
   - education
-  - skills
   - certifications
 
 title: Résumé
